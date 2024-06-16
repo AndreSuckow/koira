@@ -1,0 +1,15 @@
+.align-justify-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dir-collumn {
+    flex-direction: column;
+}
+
+
+.gap-70 {
+   gap: 70px 
+}

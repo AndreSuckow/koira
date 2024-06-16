@@ -5,13 +5,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Tudo que você quer, chegando na nossa caixa!">
+  <meta name="description" content="Site de personalização de embalagens de papelão">
   <link href="assets/images/favicon/favicon.png" rel="icon">
-  <title>Tudo que você quer, chegando na nossa caixa!</title>
+  <title>PAP10 - Entregando seu sonho em uma caixa!</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7cTeko:400,500,600,700&display=swap">
   <link rel="stylesheet" href="assets/css/libraries.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
@@ -29,122 +36,26 @@
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
           </button>
+
           <div class="collapse navbar-collapse" id="mainNavigation">
             <ul class="navbar-nav ml-auto">
+
               <li class="nav__item with-dropdown">
                 <a href="index.html" class="dropdown-toggle nav__item-link active">Home</a>
                 <i class="fa fa-angle-right" data-toggle="dropdown"></i>
-                <!-- apenas comentado -->
-                <!-- 
-                <ul class="dropdown-menu">
-                  <li class="nav__item"><a href="index.html" class="nav__item-link">Home Moderm</a></li>  
-                  <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Home classic</a></li>
-                </ul> -->
-
-              </li>
-              <!-- apenas comentado -->
-              <!-- 
-              <li class="nav__item with-dropdown">
-                <a href="about-us.html" class="dropdown-toggle nav__item-link">Company</a>
-                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
-                <ul class="dropdown-menu">
-                  <li class="nav__item"><a href="about-us.html" class="nav__item-link">About Us</a></li>
-                  <li class="nav__item"><a href="why-us.html" class="nav__item-link">Why Choose Us</a></li>
-                  <li class="nav__item"><a href="leadership-team.html" class="nav__item-link">Leadership Team</a></li>
-                  <li class="nav__item"><a href="pricing.html" class="nav__item-link">Pricing & Plans</a></li>
-                  <li class="nav__item"><a href="faqs.html" class="nav__item-link">Help & FAQs</a></li>
-                  <li class="nav__item"><a href="careers.html" class="nav__item-link">careers</a></li>
-                </ul>
-              </li>
-               -->
-
-               <!-- minimizado -->
-              <li class="nav__item with-dropdown">
-                <a href="Industries-industry-served.html" class="dropdown-toggle nav__item-link">Nossa empresa</a>
-                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
-                <ul class="dropdown-menu wide-dropdown-menu">
-                  <li class="nav__item">
-                    <div class="row mx-0">
-                      <div class="col-sm-6 dropdown-menu-col">
-                        <h6>Industries Served</h6>
-                        <ul class="nav flex-column">
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-industry.html">Petroleum & Gas</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-industry.html">Construction &
-                              Engineering</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-industry.html">Mechanical Engineering</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-industry.html">Industrial Chemicals</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-industry.html">Automotive
-                              Manufacturing</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-industry.html">Bridge Construction</a>
-                          </li><!-- /.nav-item -->
-                        </ul>
-                      </div><!-- /.col-sm-6 -->
-                      <div class="col-sm-6 dropdown-menu-col">
-                        <h6>Industry Sectors</h6>
-                        <ul class="nav flex-column">
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-sector.html">Retail & Consumer</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-sector.html">Sciences & Healthcare</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-sector.html">Industrial & Chemical</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-sector.html">Power Generation</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-sector.html">Food & Beverage</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-sector.html">Oil & Gas</a>
-                          </li><!-- /.nav-item -->
-                        </ul>
-                      </div><!-- /.col-sm-6 -->
-                    </div><!-- /.row -->
-                  </li><!-- /.nav-item -->
-                </ul><!-- /.dropdown-menu -->
               </li>
 
-              <!-- apenas comentado -->
-              <!--
               <li class="nav__item with-dropdown">
-                <a href="blog.html" class="dropdown-toggle nav__item-link">News & Media</a>
+                <a href="#aboutLayout2" class="dropdown-toggle nav__item-link">Nossa empresa</a>
                 <i class="fa fa-angle-right" data-toggle="dropdown"></i>
-                <ul class="dropdown-menu">
-                  <li class="nav__item">
-                    <a href="blog.html" class="nav__item-link">Our Blog</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="blog-single-post.html" class="nav__item-link">Single Blog Post</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="case-studies-grid.html" class="nav__item-link">Case Studies Grid</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="case-studies-single.html" class="nav__item-link">Single Case Study</a>
-                  </li>
-                </ul>
               </li>
-               -->
 
               <li class="nav__item">
                 <a href="contacs.html" class="nav__item-link">Contato</a>
               </li>
             </ul>
           </div>
+
           <div class="navbar-modules">
             <ul class="list-unstyled d-flex align-items-center modules__btns-list">
 
@@ -181,14 +92,15 @@
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-9">
                 <div class="slide__content">
-                  <h2 class="slide__title">Tudo que você quer, chegando na nossa caixa!</h2>
-                  <p class="slide__desc">Criando resultado positivo para seu negócio, conectando com agilidade sua mercadoria com seus clientes dentro do prazo combinado!</p>
-                  <a href="#" class="btn btn__primary btn__hover2 mr-30">
-                    <i class="icon-arrow-right"></i><span>Sobre nós</span>
+                  <h2 class="slide__title">Tudo o que você quer, chegando em nossa caixa!</h2>
+                  <p class="slide__desc">Criando resultado positivo para seu negócio, conectando com agilidade sua
+                    mercadoria e clientes dentro do prazo combinado!</p>
+                  <a href="https://wa.me/5541996024591/?text=Olá, gostaria de um orçamento sobre" target="_blank" class="btn btn__primary btn__hover2 mr-30">
+                    <i class="icon-arrow-right"></i><span>Fale Conosco</span>
                   </a>
-                  <a href="#" class="btn btn__white btn__bordered">
+                  <!-- <a href="#" class="btn btn__white btn__bordered">
                     <i class="icon-arrow-right"></i><span>Nossos serviços</span>
-                  </a>
+                  </a> -->
                 </div>
               </div>
             </div>
@@ -201,12 +113,14 @@
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-9">
                 <div class="slide__content">
                   <h2 class="slide__title">Presença Nacional Garantida!</h2>
-                  <p class="slide__desc">Entregamos soluções em caixas de papelão personalizadas em todo o território brasileiro com rapidez e confiabilidade!</p>
-                  <a href="#" class="btn btn__white mr-30">
+                  <p class="slide__desc">Entregamos soluções em caixas de papelão ondulado personalizadas em todo o
+                    território brasileiro com rapidez e confiabilidade!</p>
+                  <!-- <a href="#" class="btn btn__white mr-30">
                     <i class="icon-arrow-right"></i><span>Nossos Serviços</span>
-                  </a>
-                  <a href="#" class="btn btn__primary btn__hover2">
-                    <i class="icon-arrow-right"></i><span>Request Quote</span>
+                  </a> -->
+                  <a href="https://wa.me/5541996024591/?text=Olá, gostaria de um orçamento sobre"
+                    class="btn btn__primary btn__hover2" target="_blank">
+                    <i class="icon-arrow-right"></i><span>Peça seu orçamento</span>
                   </a>
                 </div>
               </div>
@@ -219,11 +133,10 @@
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-9">
                 <div class="slide__content">
-                  <h2 class="slide__title">Qualidade de preço e prazo!</h2>
-                  <p class="slide__desc">To further develop our corporate strengths we have established a corporate
-                    mandate to maintain strong core values that truly reflect the companys philosophy.</p>
-                  <a href="#" class="btn btn__white mr-30">Get Started</a>
-                  <a href="#" class="btn btn__primary mr-40">Our Services</a>
+                  <h2 class="slide__title">Qualidade, preço e prazo!</h2>
+                  <p class="slide__desc">Você encontrou o parceiro que precisava! Com agilidade e preço competitivo,
+                    garantimos a entrega no prazo e sua satisfação!</p>
+                  <a href="https://wa.me/5541996024591/?text=Olá, gostaria de um orçamento sobre" target="_blank" class="btn btn__primary btn__hover2 mr-40">Comece agora nossa parceria</a>
                 </div>
               </div>
             </div>
@@ -240,24 +153,30 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
             <div class="heading heading-2 mb-50">
-              <span class="heading__subtitle">High Performance Services For Industries And Technologies!</span>
-              <h2 class="heading__title">Pap10 é o maestro da customização em embalagens, oferecendo soluções inovadoras e sustentáveis em caixas de papelão para clientes ao redor do globo!</h2>
+              <span id="about" class="heading__subtitle" style="margin-left: -68px">Do Paraná para todo Brasil!</span>
+              <h2 class="heading__title mt-60"> <span style="color: #ff9900;">Pap10</span> personaliza sua embalagem,
+                oferecendo soluções inovadoras em caixas de papelão ondulado para clientes em todo país.</h2>
             </div>
-            <div class="row">
+            <div class="row align-justify-center" style="margin-left: -80px;">
               <div class="col-sm-6 col-md-6 col-lg-6">
-                <div class="about__text mr-30">
-                  <p>Pap10 redefine agilidade e acessibilidade, com o compromisso de entregar caixas de papelão de alta qualidade a preços competitivos, refletindo nossa filosofia de eficiência em cada pedido!<p>
+                <div class="about__text">
+                  <p>Localizada no coração do Paraná, a <span style="color: #ff9900; font-weight: 700;">Pap10</span> procura sempre ser
+                    referência nacional em qualidade e eficiência. Com uma abordagem centrada no cliente, garantindo
+                    excelência no atendimento e garantia de entrega, mantendo preços competitivos. Cada caixa é
+                    produzida com precisão para proteger e impressionar. Nosso compromisso é mais do que uma promessa, é
+                    uma certeza:<br>
+                    <span style="color: #ff9900; font-weight: 700;">a data de entrega é sagrada</span>.
+                  <p>
                 </div>
                 <img src="assets/images/about/singnture.png" alt="singnture" class="signature">
               </div>
               <div class="col-sm-6 col-md-6 col-lg-6">
-                <p>Koira industries are threatened as technology disrupts and software “eats the world.” Yet those that
-                  embrace change are thriving, building bigger, better, faster, and stronger products than ever before.
+                <!-- <p>Localizada no coração do Paraná, nossa empresa de embalagens de papelão é a referência nacional em qualidade e eficiência. Com uma abordagem centrada no cliente, garantimos entregas ágeis em todo o Brasil. Nosso compromisso é mais do que uma promessa, é uma certeza: a data de entrega é sagrada. 
                 </p>
-                <p>You are helping to lead the charge; we can help you build on your past successes and prepare for your
-                  great future.</p>
-                <a href="#" class="btn btn__secondary mt-20">
-                  <i class="icon-arrow-right"></i><span>Have A Project!</span>
+                <p>Desde pequenas encomendas até grandes remessas, cada caixa é produzida com precisão para proteger e impressionar. Somos a escolha confiável para quem busca embalagens que unem praticidade, resistência e responsabilidade.</p> -->
+                <a href="https://wa.me/5541996024591/?text=Olá, gostaria de um orçamento sobre" target="_blank"
+                  class="btn btn__secondary mt-20 ml-50">
+                  <i class="icon-arrow-right"></i><span>Comece Agora!</span>
                 </a>
               </div>
             </div>
@@ -268,10 +187,7 @@
                 <div class="about__img">
                   <img src="assets/images/about/2.jpg" alt="about" class="img-fluid w-100">
                   <div class="cta__banner">
-                    <div class="cta__icon">
-                      <i class="icon-factory-2"></i>
-                    </div>
-                    <h5 class="cta__title mb-0">Building The Future, Restoring The Past</h5>
+                    <h5 class="cta__title mb-0">Caixas personalizadas sob medida</h5>
                   </div>
                 </div>
               </div>
@@ -289,7 +205,7 @@
     <!-- =====================
         Features numberd 
       ======================== -->
-    <section id="featuresNumberd" class="features-numberd pt-0">
+    <!-- <section id="featuresNumberd" class="features-numberd pt-0">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -341,7 +257,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ========================
         services Layout 2
@@ -351,8 +267,8 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
             <div class="heading heading-2 text-center mb-40">
-              <span class="heading__subtitle">The Best Industry And Company Services</span>
-              <h2 class="heading__title">High Performance Services For Multiple Industries And Technologies!</h2>
+              <span class="heading__subtitle">Liderança em agilidade e confiabilidade</span>
+              <h2 class="heading__title">Alta performance<br>para o mercado!</h2>
             </div>
           </div>
         </div>
@@ -361,13 +277,13 @@
             <div class="service-item">
               <div class="service__content">
                 <div class="service__icon"><i class="icon-tank-2"></i></div>
-                <h4 class="service__title">Petroleum & Gas <br> Energy</h4>
-                <p class="service__desc">Petroleum and natural gas are nonrenewable sources of energy, a liquid found
-                  underground that can be used to make gasoline.</p>
-                <a href="#" class="btn btn__secondary btn__link">
-                  <span>Read More</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
+                <h4 class="service__title">Qualidade e Eficiência</h4>
+                <p class="service__desc"><br>Nossa empresa busca seu reconhecimento em todo o Brasil pela alta qualidade
+                  e
+                  eficiência de suas soluções em caixas de papelão ondulado, almejando sempre ser referência no
+                  mercado.<br><br>
+                </p>
+                <div class="btn__link"></div>
               </div>
             </div>
           </div>
@@ -375,13 +291,11 @@
             <div class="service-item">
               <div class="service__content">
                 <div class="service__icon"><i class="icon-manufacturing-plant"></i></div>
-                <h4 class="service__title">Construction & <br> Engineering</h4>
-                <p class="service__desc">Construction engineering is a professional discipline deals with designing,
-                  planning, construction of infrastructures such as roads, tunnels, bridges, airports.</p>
-                <a href="#" class="btn btn__secondary btn__link">
-                  <span>Read More</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
+                <h4 class="service__title">Valores Competitivos</h4>
+                <p class="service__desc"><br>A empresa oferece preços competitivos, tornando-se uma escolha atraente
+                  para
+                  clientes que buscam aliar qualidade, economia e satisfação garantida em suas compras.</p><br>
+                <div class="btn__link"></div>
               </div>
             </div>
           </div>
@@ -389,22 +303,13 @@
             <div class="service-item">
               <div class="service__content">
                 <div class="service__icon"><i class="icon-factory-2"></i></div>
-                <h4 class="service__title">Auto & Mechanical <br> Engineering</h4>
-                <p class="service__desc">Mechanical engineering is the discipline that applies engineering, physics,
-                  maths, and materials science principles to design, analyze, manufacture, and maintain.</p>
-                <a href="#" class="btn btn__secondary btn__link">
-                  <span>Read More</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
+                <h4 class="service__title">Pontualidade Assegurada</h4>
+                <p class="service__desc"><br>Valorizamos a pontualidade, assegurando que todas as entregas sejam feitas
+                  na
+                  data prometida, cumprindo rigorosamente os prazos acordados com seus clientes.</p><br><br>
+                <div class="btn__link"></div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="text__link mb-0">Latest solutions, and decades of experience
-              <a href="#">Explore All Services</a>
-            </p>
           </div>
         </div>
       </div>
@@ -417,29 +322,28 @@
       <div class="container-fluid col-padding-0">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 bg-theme">
-            <div class="inner-padding">
+            <div class="inner-padding mt-60">
               <div class="heading heading-3 heading-white mb-50">
-                <h2 class="heading__title">Koira is recognized as one of the World's leading Industry & Manufacturing
-                  Corporation!</h2>
-                <p class="heading__desc">Koira has been building relationships that last, serving impressive list of
-                  long-term clients with expertise in multiple industries.</p>
+                <h2 class="heading__title">Do Paraná Para o Brasil!</h2>
+                <p class="heading__desc">Nós nos importamos com a qualidade de nossas soluções.</p>
               </div><!-- /.heading -->
               <ul class="list-items list-items-white list-unstyled mb-50">
-                <li>Quality Control System</li>
-                <li>Unrivalled workmanship</li>
-                <li>100% Satisfaction Guarantee</li>
-                <li>Professional and Qualified</li>
-                <li>Highly Professional Staff</li>
-                <li> Environmental Sensitivity</li>
-                <li>Accurate Testing Processes</li>
-                <li>Personalised solutions</li>
+                <li>Controle de qualidade no seu produto</li>
+                <li>Preço justo e competitivo</li>
+                <li>Sua satisfação no centro do negócio</li>
+                <li>Profissionais altamente especializados</li>
+                <li>Garantia de entrega dentro do prazo</li>
+                <li>Soluções personalizadas para seu negócio</li>
               </ul>
-              <a href="#" class="btn btn__white btn__bordered btn__lg">Schedule An Appointment</a>
+              <a href="https://www.instagram.com/pap10embalagens/" target="_blank" class="btn btn__secondary-2">conheça
+                nosso instagram</a>
             </div>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 bg-parallax" style="min-height: 700px;">
             <div class="bg-img"><img src="assets/images/banners/3.jpg" alt="background"></div>
-            <div class="vertical-align-center">
+
+            <!-- criar video -->
+            <!-- <div class="vertical-align-center">
               <div class="video__btn video__btn-white">
                 <a class="popup-video" href="https://www.youtube.com/watch?4=&v=TKnufs85hXk">
                   <span class="video__player-animation"></span>
@@ -449,26 +353,29 @@
                   </div>
                 </a>
               </div>
-            </div>
+            </div> -->
             <ul class="list-unstyled">
               <li class="statistic-item opened">
                 <div class="statistic__item-panel">
-                  <h4 class="statistic__item-counter counter">754</h4>
-                  <p class="statistic__item-title">Employees</p>
+                  <h4 class="statistic__item-counter counter">3000</h4>
+                  <p class="statistic__item-title" style="text-align: center;"><span style="color: #ff9900;">+ de 3
+                      mil</span><br> produtos<br> desenvolvidos</p>
                 </div>
                 <button class="statistic__item-btn">+</button>
               </li><!-- /.statistic-item -->
               <li class="statistic-item">
                 <div class="statistic__item-panel">
-                  <h4 class="statistic__item-counter counter">2,187</h4>
-                  <p class="statistic__item-title">Clients</p>
+                  <h4 class="statistic__item-counter counter">2000</h4>
+                  <p class="statistic__item-title" style="text-align: center;"><span style="color: #ff9900;">+ de 2
+                      mil</span><br>Clientes Satisfeitos</p>
                 </div>
                 <button class="statistic__item-btn">+</button>
               </li>
               <li class="statistic-item">
                 <div class="statistic__item-panel">
-                  <h4 class="statistic__item-counter counter">300</h4>
-                  <p class="statistic__item-title">Parteners</p>
+                  <h4 class="statistic__item-counter counter">20</h4>
+                  <p class="statistic__item-title" style="text-align: center;"><span style="color: #ff9900;">+ de 20
+                      anos</span><br>em experiência no desenvolvimento<br>de embalagens</p>
                 </div>
                 <button class="statistic__item-btn">+</button>
               </li>
@@ -478,24 +385,24 @@
       </div>
     </section>
 
-    <!-- =========================
-      portfolio carousel
-      =========================== -->
-    <section id="portfolioCarousel" class="portfolio-carousel pt-120 pb-90">
+
+    <!-- carrossel -->
+
+    <!-- <section id="portfolioCarousel" class="portfolio-carousel pt-120 pb-90">
       <div class="container">
         <div class="row heading heading-2 mb-40">
           <div class="col-sm-12 col-md-12 col-lg-12">
             <span class="heading__subtitle">Explore Recent Works</span>
-          </div><!-- /.col-lg-12 -->
+          </div>
           <div class="col-sm-12 col-md-12 col-lg-6">
             <h2 class="heading__title">Providing Innovative and Sustainable Solutions.</h2>
-          </div><!-- /heading -->
+          </div>
           <div class="col-sm-12 col-md-12 col-lg-6">
             <p class="heading__desc">Koira has been building relationships and projects that last. Serving an impressive
               list of long-term clients with experience and expertise in multiple industries, recognized as one of the
               World's leading Corporation! </p>
-          </div><!-- /heading -->
-        </div><!-- /.row -->
+          </div>
+        </div>
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="carousel owl-carousel carousel-arrows" data-slide="3" data-slide-md="2" data-slide-sm="1"
@@ -503,12 +410,12 @@
               <div class="portfolio-item">
                 <div class="portfolio__img">
                   <img src="assets/images/case-studies/1.jpg" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
+                </div>
                 <div class="portfolio__content">
                   <h4 class="portfolio__title"><a href="#">Floride Chemicals Factory</a></h4>
                   <div class="portfolio__cat">
                     <a href="#">Chemicals</a><a href="#">oil & Gas</a>
-                  </div><!-- /.portfolio-cat -->
+                  </div>
                   <div class="divider__line divider__lg"></div>
                   <p class="portfolio__desc">We understand that data is the greatest asset when it comes to analyzing
                     and
@@ -516,34 +423,34 @@
                   <a href="#" class="btn btn__secondary btn__link">
                     <span>Explore More</span><i class="icon-arrow-right"></i>
                   </a>
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
+                </div>
+              </div>
               <div class="portfolio-item">
                 <div class="portfolio__img">
                   <img src="assets/images/case-studies/2.jpg" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
+                </div>
                 <div class="portfolio__content">
                   <h4 class="portfolio__title"><a href="#">Highway Energy Station</a></h4>
                   <div class="portfolio__cat">
                     <a href="#">Construction</a><a href="#">Energy</a>
-                  </div><!-- /.portfolio-cat -->
+                  </div>
                   <div class="divider__line divider__lg"></div>
                   <p class="portfolio__desc">Cost savings is crucial, innovative technology minimizes your overall spend
                     by utilizing an extensive consolidation.</p>
                   <a href="#" class="btn btn__secondary btn__link">
                     <span>Explore More</span><i class="icon-arrow-right"></i>
                   </a>
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
+                </div>
+              </div>
               <div class="portfolio-item">
                 <div class="portfolio__img">
                   <img src="assets/images/case-studies/3.jpg" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
+                </div>
                 <div class="portfolio__content">
                   <h4 class="portfolio__title"><a href="#">Villy Manufacturing Inc</a></h4>
                   <div class="portfolio__cat">
                     <a href="#">Engineering</a><a href="#">Auto</a>
-                  </div><!-- /.portfolio-cat -->
+                  </div>
                   <div class="divider__line divider__lg"></div>
                   <p class="portfolio__desc">Our Group has been building relationships and portfolio that last. Serving
                     a
@@ -551,17 +458,17 @@
                   <a href="#" class="btn btn__secondary btn__link">
                     <span>Explore More</span><i class="icon-arrow-right"></i>
                   </a>
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
+                </div>
+              </div>
               <div class="portfolio-item">
                 <div class="portfolio__img">
                   <img src="assets/images/case-studies/4.jpg" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
+                </div>
                 <div class="portfolio__content">
                   <h4 class="portfolio__title"><a href="#">Regulatory Complian Seminar</a></h4>
                   <div class="portfolio__cat">
                     <a href="#">Construction</a><a href="#">Engineering</a>
-                  </div><!-- /.portfolio-cat -->
+                  </div>
                   <div class="divider__line divider__lg"></div>
                   <p class="portfolio__desc">We understand that data is the greatest asset when it comes to analyzing
                     and
@@ -569,34 +476,34 @@
                   <a href="#" class="btn btn__secondary btn__link">
                     <span>Explore More</span><i class="icon-arrow-right"></i>
                   </a>
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
+                </div>
+              </div>
               <div class="portfolio-item">
                 <div class="portfolio__img">
                   <img src="assets/images/case-studies/5.jpg" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
+                </div>
                 <div class="portfolio__content">
                   <h4 class="portfolio__title"><a href="#">Documents & Electronic Data</a></h4>
                   <div class="portfolio__cat">
                     <a href="#">Chemicals</a><a href="#">oil & Gas</a>
-                  </div><!-- /.portfolio-cat -->
+                  </div>
                   <div class="divider__line divider__lg"></div>
                   <p class="portfolio__desc">Cost savings is crucial, innovative technology minimizes your overall spend
                     by utilizing an extensive consolidation.</p>
                   <a href="#" class="btn btn__secondary btn__link">
                     <span>Explore More</span><i class="icon-arrow-right"></i>
                   </a>
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
+                </div>
+              </div>
               <div class="portfolio-item">
                 <div class="portfolio__img">
                   <img src="assets/images/case-studies/6.jpg" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
+                </div>
                 <div class="portfolio__content">
                   <h4 class="portfolio__title"><a href="#">Floride Chemicals Factory</a></h4>
                   <div class="portfolio__cat">
                     <a href="#">Chemicals</a><a href="#">oil & Gas</a>
-                  </div><!-- /.portfolio-cat -->
+                  </div>
                   <div class="divider__line divider__lg"></div>
                   <p class="portfolio__desc">We understand that data is the greatest asset when it comes to analyzing
                     and
@@ -604,19 +511,17 @@
                   <a href="#" class="btn btn__secondary btn__link">
                     <span>Explore More</span><i class="icon-arrow-right"></i>
                   </a>
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
+                </div>
+              </div>
 
-            </div><!-- /.carousel -->
-          </div><!-- /.col-lg-12 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.portfolio carousel -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
-    <!-- =====================
-       Clients 
-    ======================== -->
-    <section id="clients" class="clients border-top">
+    <!-- clientes -->
+    <!-- <section id="clients" class="clients border-top">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -624,27 +529,27 @@
               data-nav="false" data-dots="false" data-space="20" data-loop="true" data-speed="700">
               <div class="client">
                 <a href="#"><img src="assets/images/clients/1.png" alt="client"></a>
-              </div><!-- /.client -->
+              </div>
               <div class="client">
                 <a href="#"><img src="assets/images/clients/2.png" alt="client"></a>
-              </div><!-- /.client -->
+              </div>
               <div class="client">
                 <a href="#"><img src="assets/images/clients/3.png" alt="client"></a>
-              </div><!-- /.client -->
+              </div>
               <div class="client">
                 <a href="#"><img src="assets/images/clients/4.png" alt="client"></a>
-              </div><!-- /.client -->
+              </div>
               <div class="client">
                 <a href="#"><img src="assets/images/clients/5.png" alt="client"></a>
-              </div><!-- /.client -->
+              </div>
               <div class="client">
                 <a href="#"><img src="assets/images/clients/6.png" alt="client"></a>
-              </div><!-- /.client -->
-            </div><!-- /.carousel -->
-          </div><!-- /.col-lg-12 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.clients -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
     <!-- =========================
         Banner layout 4
@@ -655,31 +560,42 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-7">
             <div class="heading heading-5 heading-white mb-40">
-              <span class="heading__subtitle">Dedicated Customer Teams & An Agile Services</span>
-              <h3 class="heading__title">Serving Impressive List Of Long Term Clients!</h3>
-              <p class="heading__desc">Our worldwide presence ensures timeliness, cost efficiency and compliance
-                adherence required to ensure your timelines are met. Serving with experience aNd expertise in multiple
-                industries, as one of the World's leading Corporation!</p>
-            </div><!-- /.heading -->
-            <a href="#" class="btn btn__primary btn__link">
-              <i class="icon-arrow-right"></i> <span>Download our Brochure</span>
-            </a>
-          </div><!-- /.col-lg-7 -->
-          <div class="col-sm-12 col-md-12 col-lg-4 offset-lg-1">
+              <span class="heading__subtitle">Queremos te ajudar a escolher a embalagem certa!</span>
+              <h3 class="heading__title">Com dificuldade de escolher? <br>Ache a caixa que precisa!</h3>
+              <p class="heading__desc">Se você ainda não tem certeza de qual solução de embalagem é a mais adequada para
+                o seu negócio, não se preocupe, acesse o guia completo que pode te ajudar a tomar a melhor
+                decisão.<br><br>
+
+                Descubra todas as opções disponíveis para encontrar a embalagem perfeita para suas necessidades.<br><br>
+
+                <a href="https://www.fefco.org/sites/default/files/files/styles/thumbnail/public/FEFCO%20Code_WEBprotected.pdf"
+                  class="btn btn__primary_white btn__link" target="_blank">
+                  <i class="icon-arrow-right"></i> <span>Acesse o guia completo</span>
+                </a>
+              </p>
+              <p class="heading__desc_2 mt-30">
+                Entre em contato agora com nosso <span style="color: #ff9900; font-weight: 700;">time de especialistas</span> para juntos
+                encontrarmos a melhor solução para o seu negócio.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4 offset-lg-1 align-justify-center dir-collumn gap-70">
             <blockquote class="blockquote">
-              You are helping to lead the charge; we can help you build on your past successes and prepare for your
-              great future.
-              <span class="quote__author">- Martin, koira</span>
+              Esse guia é incrível e pode te ajudar a encontrar a embalagem ideal para o seu negócio.
+              <span class="quote__author">- Rafael Oliveira</span>
             </blockquote>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /. Banner layout 4 -->
+            <a href="https://wa.me/5541996024591/?text=Olá, gostaria de um orçamento sobre" target="_blank" class="btn btn__primary btn__hover2">
+              <i class="icon-arrow-right"></i><span>Fale Conosco</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ==========================
         contact layout 2
     =========================== -->
-    <section id="contactLayout2" class="contact contact-layout2 pt-0   bg-gray">
+    <!-- <section id="contactLayout2" class="contact contact-layout2 pt-0   bg-gray">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -705,157 +621,150 @@
                   </div>
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group"><input type="text" class="form-control" placeholder="Name"></div>
-                  </div><!-- /.col-lg-6 -->
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group"><input type="email" class="form-control" placeholder="Email"></div>
-                  </div><!-- /.col-lg-6 -->
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group"><input type="text" class="form-control" placeholder="Phone"></div>
-                  </div><!-- /.col-lg-6 -->
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group">
-                      <select class="form-control form-group w-100">
-                        <option>Select Your Industry</option>
-                        <option>Industry 1</option>
-                        <option>Industry 2</option>
-                      </select>
-                    </div>
-                  </div><!-- /.col-lg-6 -->
-                  <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div class="form-group">
-                      <textarea class="form-control" placeholder="Additional Details!"></textarea>
-                    </div>
-                  </div><!-- /.col-lg-12 -->
-                  <div class="col-sm-12 col-md-12 col-lg-12 d-flex align-items-center">
-                    <button type="submit" class="btn btn__secondary mr-30">
-                      <span>Submit Request</span><i class="icon-arrow-right"></i>
-                    </button>
-                    <div class="input-radio">
-                      <label class="label-radio">I accept the privacy and terms.
-                        <input type="checkbox" name="radioGroup2" checked>
-                        <span class="radio-indicator"></span>
-                      </label>
-                    </div>
-                  </div><!-- /.col-lg-12 -->
-                </div><!-- /.row -->
-              </form>
-            </div><!-- /.contact__panel -->
-          </div><!-- /.col-lg-12 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.contact layout 1 -->
+                  </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="form-group"><input type="email" class="form-control" placeholder="Email"></div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="form-group"><input type="text" class="form-control" placeholder="Phone"></div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="form-group">
+                <select class="form-control form-group w-100">
+                  <option>Select Your Industry</option>
+                  <option>Industry 1</option>
+                  <option>Industry 2</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Additional Details!"></textarea>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 d-flex align-items-center">
+              <button type="submit" class="btn btn__secondary mr-30">
+                <span>Submit Request</span><i class="icon-arrow-right"></i>
+              </button>
+              <div class="input-radio">
+                <label class="label-radio">I accept the privacy and terms.
+                  <input type="checkbox" name="radioGroup2" checked>
+                  <span class="radio-indicator"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+          </form>
+        </div>
+      </div>
+    </section> -->
 
     <!-- ========================= 
        Testimonials layout 1
     =========================  -->
-    <section id="testimonialsLayout1" class="testimonials testimonials-layout1 pt-0">
+    <!-- <section id="testimonialsLayout1" class="testimonials testimonials-layout1 pt-0">
       <div class="bg-img"><img src="assets/images/backgrounds/1.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="heading mb-50">
-              <h2 class="heading__title mb-0">What Our Clients Say!</h2>
-            </div><!-- /.heading -->
-          </div><!-- /.col-lg-6 -->
-        </div><!-- /.row -->
+              <h2 class="heading__title mb-0 mt-120">O que os nossos clientes dizem sobre nós?</h2>
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-12 col-sm-1 col-md-1 col-lg-1">
             <img src="assets/images/testimonials/quote-icon.png" alt="quote-icon" class="mb-20">
-          </div><!-- /.col-lg-1 -->
+          </div>
           <div class="co-12 col-sm-11 col-md-11 col-lg-11">
             <div class="owl-carousel thumbs-carousel carousel-arrows" data-slider-id="1" data-nav="true"
               data-dots="false">
-              <!-- Testimonial #1 -->
+             
               <div class=" testimonial-item">
                 <div class="testimonial__content">
-                  <p class="testimonial__desc">They are the best of the best, and expertly trained team members who take
-                    the extra step and go the extra mile, all to fulfill our dedicated promise to deliver innovative and
-                    dynamic solutions to our customers to fit the needs of a rapidly changing global environment which
-                    was perfect for our needs!!.</p>
-                </div><!-- /.testimonial-content -->
-              </div><!-- /. testimonial-item -->
-              <!-- Testimonial #2 -->
+                  <p class="testimonial__desc">A PAP10 é a melhor das melhores, com uma equipe treinada e especializada que vai além do necessário para cumprir sua promessa de entregar soluções inovadoras e dinâmicas aos seus clientes. As caixas de papelão personalizadas para minha pizzaria são perfeitas, garantindo que minhas pizzas cheguem quentinhas e em ótimo estado aos meus clientes. 
+                  <br><br> 
+                  A rapidez e confiabilidade nas entregas são inigualáveis!</p>
+                </div>
+              </div>
+              
               <div class=" testimonial-item">
                 <div class="testimonial__content">
-                  <p class="testimonial__desc">They are the best of the best, and expertly trained team members who take
-                    the extra step and go the extra mile, all to fulfill our dedicated promise to deliver innovative and
-                    dynamic solutions to our customers to fit the needs of a rapidly changing global environment which
-                    was perfect for our needs!!.</p>
-                </div><!-- /.testimonial-content -->
-              </div><!-- /. testimonial-item -->
-              <!-- Testimonial #3 -->
+                  <p class="testimonial__desc">Eu nunca imaginei que encontrar uma solução de embalagem ideal seria tão fácil! A PAP10 superou todas as minhas expectativas com suas caixas personalizadas que protegem e valorizam meus produtos. A equipe é extremamente profissional e dedicada, sempre indo além para garantir minha satisfação.
+                  <br><br>  
+                  Além disso, as caixas sempre chegam antes do prazo combinado, nunca atrasando. A qualidade e eficiência são evidentes em cada entrega. Considero-os como parceiros estratégicos para o meu negócio online.</p>
+                </div>
+              </div>
+              
               <div class=" testimonial-item">
                 <div class="testimonial__content">
-                  <p class="testimonial__desc">They are the best of the best, and expertly trained team members who take
-                    the extra step and go the extra mile, all to fulfill our dedicated promise to deliver innovative and
-                    dynamic solutions to our customers to fit the needs of a rapidly changing global environment which
-                    was perfect for our needs!!.</p>
-                </div><!-- /.testimonial-content -->
-              </div><!-- /. testimonial-item -->
+                  <p class="testimonial__desc">Como proprietário de uma vinícola, a qualidade e a apresentação das minhas garrafas são essenciais. A PAP10 forneceu caixas de papelão ondulado que não apenas protegem, mas também impressionam meus clientes. O compromisso com a pontualidade e a excelência no atendimento são marcas registradas da empresa. 
+                  <br><br>
+                  Agradeço à PAP10 por ser um parceiro confiável e por entender perfeitamente as necessidades do meu negócio!</p>
+                </div>
+              </div>
             </div>
             <div class="owl-thumbs" data-slider-id="1">
               <button class="owl-thumb-item">
                 <span class="testimonial__thumb">
                   <img src="assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
-                </span><!-- /.testimonial-thumb -->
+                </span>
                 <span class="testimonial__meta">
-                  <span class="testimonial__meta-title">John Peter</span>
-                  <span class="testimonial__meta-desc">7oroof Inc</span>
-                </span><!-- /.testimonial-meta -->
+                  <span class="testimonial__meta-title">Alvarenga da Silva Sauro</span>
+                  <span class="testimonial__meta-desc">Pizzaria Alvarenga</span>
+                </span>
               </button>
               <button class="owl-thumb-item">
                 <span class="testimonial__thumb">
                   <img src="assets/images/testimonials/thumbs/2.jpg" alt="author thumb">
-                </span><!-- /.testimonial-thumb -->
+                </span>
                 <span class="testimonial__meta">
-                  <span class="testimonial__meta-title">Sami Wade</span>
-                  <span class="testimonial__meta-desc">Trustry</span>
-                </span><!-- /.testimonial-meta -->
+                  <span class="testimonial__meta-title">João Pedro</span>
+                  <span class="testimonial__meta-desc">Empresário de E-commerce</span>
+                </span>
               </button>
               <button class="owl-thumb-item">
                 <span class="testimonial__thumb">
                   <img src="assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
-                </span><!-- /.testimonial-thumb -->
+                </span>
                 <span class="testimonial__meta">
-                  <span class="testimonial__meta-title">Martin Hope</span>
-                  <span class="testimonial__meta-desc">Industech</span>
-                </span><!-- /.testimonial-meta -->
+                  <span class="testimonial__meta-title">Sergio Almeida</span>
+                  <span class="testimonial__meta-desc">Proprietário de Vinícola</span>
+                </span>
               </button>
-            </div><!-- /.owl-thumbs -->
-          </div><!-- /.col-lg-12 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.testimonials 1 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
-    <!-- ======================
-      Blog Grid
-    ========================= -->
-    <section id="blogGrid" class="blog blog-grid pb-70">
+   
+    <!-- <section id="blogGrid" class="blog blog-grid pb-70">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
             <div class="heading heading-2 text-center mb-50">
               <span class="heading__subtitle">Latest Articles Updated Daily</span>
               <h2 class="heading__title">Insight, Industry Trends, Top <br>News Headlines.</h2>
-            </div><!-- /.heading -->
-          </div><!-- /.col-lg-6 -->
-        </div><!-- /.row-->
+            </div>
+          </div>
+        </div>
         <div class="row">
-          <!-- Blog Item #1 -->
+          
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
                   <img src="assets/images/blog/grid/1.jpg" alt="blog image">
                 </a>
-              </div><!-- /.entry-img -->
+              </div>
               <div class="blog__content">
                 <div class="blog__meta">
                   <span class="blog__meta-date">Jan 20, 2019</span>
                   <div class="blog__meta-cat">
                     <a href="#">Oil & Gas</a><a href="#">Insights</a>
-                  </div><!-- /.blog-meta-cat -->
-                </div><!-- /.blog-meta -->
+                  </div>
+                </div>
                 <h4 class="blog__title"><a href="#">Importers achieve cost savings through the First Sale rule!</a></h4>
                 <p class="blog__desc">The trade war currently ensuing between the US and several nations around the
                   globe, most fiercely with China, shows no signs of the first set of tariffs levied against solar...
@@ -864,24 +773,24 @@
                   <span>Read More</span>
                   <i class="icon-arrow-right"></i>
                 </a>
-              </div><!-- /.entry-content -->
-            </div><!-- /.blog-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- Blog Item #2 -->
+              </div>
+            </div>
+          </div>
+          
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
                   <img src="assets/images/blog/grid/2.jpg" alt="blog image">
                 </a>
-              </div><!-- /.entry-img -->
+              </div>
               <div class="blog__content">
                 <div class="blog__meta">
                   <span class="blog__meta-date">Oct 18, 2019</span>
                   <div class="blog__meta-cat">
                     <a href="#">Industry</a><a href="#">Construction</a>
-                  </div><!-- /.blog-meta-cat -->
-                </div><!-- /.blog-meta -->
+                  </div>
+                </div>
                 <h4 class="blog__title"><a href="#">Cargo flow through better supply chain visibility, control.</a></h4>
                 <p class="blog__desc">Global provider connected products for consumers, and enterprises worldwide,
                   supply chain control is everything, provide visibility and traceability needed for...</p>
@@ -889,24 +798,24 @@
                   <span>Read More</span>
                   <i class="icon-arrow-right"></i>
                 </a>
-              </div><!-- /.entry-content -->
-            </div><!-- /.blog-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- Blog Item #3 -->
+              </div>
+            </div>
+          </div>
+          
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
                   <img src="assets/images/blog/grid/3.jpg" alt="blog image">
                 </a>
-              </div><!-- /.entry-img -->
+              </div>
               <div class="blog__content">
                 <div class="blog__meta">
                   <span class="blog__meta-date">Jan 20, 2019</span>
                   <div class="blog__meta-cat">
                     <a href="#">Engineering</a><a href="#">Distribution</a>
-                  </div><!-- /.blog-meta-cat -->
-                </div><!-- /.blog-meta -->
+                  </div>
+                </div>
                 <h4 class="blog__title"><a href="#">Importance of specialized focus in portfolio, Oil & Gas</a></h4>
                 <p class="blog__desc">Our team provides highly skilled & experienced portfolio managers who know the
                   intricacies of this vertical and focus on providing innovative solutions in Oil & Gas...</p>
@@ -914,12 +823,12 @@
                   <span>Read More</span>
                   <i class="icon-arrow-right"></i>
                 </a>
-              </div><!-- /.entry-content -->
-            </div><!-- /.blog-item -->
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row-->
-      </div><!-- /.container -->
-    </section><!-- /.blog Grid -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
     <!-- ========================
       Footer
@@ -927,24 +836,31 @@
     <footer id="footer" class="footer">
       <div class="footer-top">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 footer__widget footer__widget-about">
-              <h6 class="footer__widget-title">Quick Contact</h6>
+          <div class="row align-justify-center">
+            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 footer__widget-about">
+              <h6 class="footer__widget-title">Contato Rápido</h6>
               <div class="footer__widget-content">
-                <p class="color-gray">If you have any questions or need help, feel free to contact with our team.</p>
+                <p class="color-gray">Se precisar falar conosco, ligue:</p>
                 <p class="footer__contact-phone">
                   <i class="icon-phone"></i>
-                  <a href="tel:5541996024591">55 654 54117</a>
+                  <a href="tel:5541996024591">+55 41 9 9602-4591</a>
                 </p>
-                <p>2307 Beverley Rd Brooklyn, New York <br>11226 United States.</p>
+                <address>Campo Largo, Paraná.</address>
+              </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 footer__widget-about">
+              <h6 class="footer__widget-title">SIga-nos nas nossas redes sociais</h6>
+              <div class="footer__widget-content">
                 <ul class="social__icons">
                   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                </ul><!-- /.social-icons -->
+                  <li><a href="https://www.instagram.com/pap10embalagens/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
               </div>
-            </div><!-- /.col-xl-3 -->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-2 offset-xl-1 footer__widget footer__widget-nav">
+            </div>
+
+            <!-- <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-2 offset-xl-1 footer__widget footer__widget-nav">
               <h6 class="footer__widget-title">Company</h6>
               <div class="footer__widget-content">
                 <nav>
@@ -957,9 +873,10 @@
                     <li><a href="#">Careers</a></li>
                   </ul>
                 </nav>
-              </div><!-- /.footer-widget-content -->
-            </div><!-- /.col-xl-2 -->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-2 footer__widget footer__widget-nav">
+              </div>
+            </div> -->
+            
+            <!-- <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-2 footer__widget footer__widget-nav">
               <h6 class="footer__widget-title">Industries</h6>
               <div class="footer__widget-content">
                 <nav>
@@ -972,9 +889,10 @@
                     <li><a href="#">Oil & Gas</a></li>
                   </ul>
                 </nav>
-              </div><!-- /.footer-widget-content -->
-            </div><!-- /.col-xl-2 -->
-            <div class="col-sm-12 col-md-10 col-lg-6 col-xl-4 footer__widget footer__widget-newsletter">
+              </div>
+            </div> -->
+            
+            <!-- <div class="col-sm-12 col-md-10 col-lg-6 col-xl-4 footer__widget footer__widget-newsletter">
               <div class="footer__widget-content">
                 <p>Sign up for industry alerts, our latest news, thoughts, and insights from Koira.</p>
                 <form class="widget__newsletter-form">
@@ -985,18 +903,19 @@
                     </button>
                   </div>
                 </form>
-              </div><!-- /.footer-widget-content -->
+              </div>
               <p class="text-right fz-13 mt-20 mb-0">You may withdraw your consent at any time!</p>
-            </div><!-- /.col-xl-4 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </div><!-- /.footer-top -->
+            </div> -->
+
+          </div>
+        </div>
+      </div>
       <div class="footer-bottom">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-3 col-lg-3">
               <img src="assets/images/logo/logo-footer.png" alt="logo">
-            </div><!-- /.col-lg-3 -->
+            </div>
             <div class="col-sm-12 col-md-9 col-lg-9 text-right">
               <div class="footer__copyright">
                 <nav>
@@ -1010,12 +929,12 @@
                 <p class="mb-0"> &copy; 2020 Koira, All Rights Reserved. With Love by
                   <a href="http://themeforest.net/user/7oroof">7oroof.com</a>
                 </p>
-              </div><!-- /.Footer-copyright -->
-            </div><!-- /.col-lg-9 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </div><!-- /.Footer-bottom -->
-    </footer><!-- /.Footer -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <button id="scrollTopBtn"><i class="fa fa-long-arrow-up"></i></button>
 
     <div class="module__search-container">
@@ -1024,9 +943,9 @@
         <input type="text" class="search__input" placeholder="Type Words Then Enter">
         <button class="module__search-btn"><i class="fa fa-search"></i></button>
       </form>
-    </div><!-- /.module-search-container -->
+    </div>
 
-  </div><!-- /.wrapper -->
+  </div>
 
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/plugins.js"></script>
