@@ -1,4 +1,4 @@
-.align-justify-center{
+.align-justify-center {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,5 +11,131 @@
 
 
 .gap-70 {
-   gap: 70px 
+    gap: 70px
 }
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse {
+    animation: pulse 1s infinite;
+}
+
+
+.btn-formulario:hover {
+    animation: pulse 1s infinite !important;
+    background-color: #fff !important
+}
+
+
+
+
+
+.contact-result {
+    font-size: 36px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 120px;
+    right: 26px;
+    width: 3.2rem;
+    z-index: 100;
+    transition: width 0.5s;
+    overflow: hidden;
+    border-radius: 50px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.whatsapp-button:hover {
+    width: 12.5rem;
+}
+  
+  .whatsapp-button.visible {
+    opacity: 1;
+    pointer-events: auto;
+    right: 20px; 
+    z-index: 100;
+  }
+
+
+.whatsapp-img {
+    width: 12.5rem;
+    max-width: 12.5rem;
+}
+
+
+.negative-margin-left-80 {
+    margin-left: -80px;
+}
+
+.negative-margin-left-68 {
+    margin-left: -68px
+}
+
+
+
+
+
+
+
+
+
+
+
+/* resolvendo margens negativas */
+
+@media only screen and (min-width: 1100px) and (max-width: 1280px) {
+    .negative-margin-left-68 {
+        margin-left: 0;
+    }
+
+    .about-layout2 .heading__title {
+        margin-left: 0;
+    }
+
+    .negative-margin-left-80 {
+        margin: 0;
+    }
+  }
+
+
+  @media only screen and (min-width: 768px) and (max-width: 1280px) {
+    .negative-margin-left-68 {
+        margin-left: 0;
+    }
+
+    .about-layout2 .heading__title {
+        margin-left: 0;
+    }
+
+    .negative-margin-left-80 {
+        margin: 0;
+    }
+  }
+
+
+
+  @media only screen and (min-width: 325px) and (max-width: 980px) {
+    .social__icons {
+        justify-content: center;
+    }
+
+    .footer-top {
+        text-align: center;
+    }
+  }
+  

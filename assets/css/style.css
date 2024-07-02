@@ -1,11 +1,11 @@
-
 html,
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 :root {
-  --orange:#ff9900;
+  --orange: #ff9900;
   --white: #ffffff;
   --black: #000000;
 }
@@ -1605,6 +1605,9 @@ h6 {
   background-color: #ff9900;
   border: 2px solid #ff9900;
   color: #ffffff;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
 .btn__primary:active,
@@ -1636,6 +1639,9 @@ h6 {
   background-color: #222222;
   border: 2px solid #222222;
   color: #ffffff;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
 .btn__secondary:active,
@@ -1656,9 +1662,12 @@ h6 {
 
 .btn__secondary-2 {
   background-color: #222222;
-  border:  2px solid #222222;
+  border: 2px solid #222222;
   color: #ffffff;
-} 
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+}
 
 .btn__secondary-2:active,
 .btn__secondary-2:focus,
@@ -1668,6 +1677,23 @@ h6 {
   color: #222222;
 }
 
+
+.btn__secondary-3 {
+  background-color: #222222;
+  border: 2px solid #222222;
+  color: #ffffff;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.btn__secondary-3:active,
+.btn__secondary-3:focus,
+.btn__secondary-3:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #222222;
+}
 
 
 
@@ -1900,7 +1926,7 @@ label {
 }
 
 .error {
-    color: red;
+  color: red;
 }
 
 .form-group {
@@ -1924,7 +1950,7 @@ label {
 }
 
 textarea.form-control {
-  height: 122px;
+  height: 350px;
   padding-top: 10px;
   line-height: 25px;
   border-radius: 15px;
@@ -2940,10 +2966,6 @@ textarea.form-control {
   transition: all 0.4s ease;
 }
 
-.module__btn-request span {
-  margin-right: 7px;
-}
-
 .module__btn-request:hover {
   -webkit-transform: translateY(-2px);
   -moz-transform: translateY(-2px);
@@ -3934,7 +3956,14 @@ textarea.form-control {
   font-weight: 300;
   color: #ff9900;
   line-height: 1;
+  transition: 0.6s;
 }
+
+.footer__contact-phone a:hover {
+  color: #ffffff;
+}
+
+
 
 .footer__widget-newsletter .footer__widget-content {
   background-color: #121212;
@@ -4023,6 +4052,7 @@ textarea.form-control {
 
 .footer .social__icons {
   margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .footer .social__icons li {
@@ -4070,6 +4100,9 @@ textarea.form-control {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
 #scrollTopBtn:hover {
@@ -4169,7 +4202,7 @@ textarea.form-control {
   color: #ffffff;
   font-size: 28px;
   font-weight: 400;
-  
+
 }
 
 .cta__banner .cta__desc {
@@ -4474,6 +4507,12 @@ textarea.form-control {
   }
 }
 
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider .slide-item {
+      height: calc(100vh - 500px) !important;
+  }
+}
+
 /* Mobile Phones and tablets */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .header-transparent+.slider {
@@ -4485,7 +4524,7 @@ textarea.form-control {
   }
 
   .slider .slide-item {
-    height: calc(100vh - 80px);
+    height: calc(100vh - 600px);
   }
 
   .header-transparent+.slider .slide__content {
@@ -6187,6 +6226,7 @@ textarea.form-control {
   box-shadow: 0px 3px 63px 0px rgba(40, 40, 40, 0.11);
   display: flex;
   flex-wrap: wrap;
+  background-color: #ff9900;
 }
 
 .contact__panel .contact__panel-banner {
@@ -6224,9 +6264,14 @@ textarea.form-control {
 .contact__panel .contact__panel-banner .contact__number a {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 300;
   line-height: 1;
+  transition: 0.6s;
+}
+
+.contact__panel .contact__panel-banner .contact__number a:hover {
+  color: #212529;
 }
 
 .contact__panel .contact__form-panel {
@@ -6242,12 +6287,17 @@ textarea.form-control {
 .contact__panel .contact__form-panel-header h4 {
   font-size: 34px;
   margin-bottom: 13px;
+  text-align: center;
+  font-weight: 700;
 }
 
 .contact__panel .contact__form-panel-header p {
   font-size: 16px;
   line-height: 27px;
   margin-bottom: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
 }
 
 .contact__panel .nice-select .list {
@@ -6595,6 +6645,9 @@ textarea.form-control {
   -ms-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
 .service-item .service__img {
@@ -7079,6 +7132,9 @@ textarea.form-control {
 .about__img {
   position: relative;
   box-shadow: 0px 1px 73px 0px rgba(40, 40, 40, 0.1);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
 .about__img img {
@@ -7377,6 +7433,9 @@ textarea.form-control {
   font-weight: 700;
   padding: 47px 50px 50px;
   margin-top: 30px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
 .banner-layout4 .blockquote:before {
