@@ -49,7 +49,7 @@
     position: fixed;
     bottom: 120px;
     right: 26px;
-    width: 3.2rem;
+    width: 3.21rem;
     z-index: 100;
     transition: width 0.5s;
     overflow: hidden;
@@ -78,14 +78,6 @@
 }
 
 
-.negative-margin-left-80 {
-    margin-left: -80px;
-}
-
-.negative-margin-left-68 {
-    margin-left: -68px
-}
-
 
 
 
@@ -99,32 +91,20 @@
 /* resolvendo margens negativas */
 
 @media only screen and (min-width: 1100px) and (max-width: 1280px) {
-    .negative-margin-left-68 {
-        margin-left: 0;
-    }
 
     .about-layout2 .heading__title {
         margin-left: 0;
     }
 
-    .negative-margin-left-80 {
-        margin: 0;
-    }
   }
 
 
   @media only screen and (min-width: 768px) and (max-width: 1280px) {
-    .negative-margin-left-68 {
-        margin-left: 0;
-    }
 
     .about-layout2 .heading__title {
         margin-left: 0;
     }
 
-    .negative-margin-left-80 {
-        margin: 0;
-    }
   }
 
 
